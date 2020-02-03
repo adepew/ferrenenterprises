@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+Spectral by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-You can use the [editor on GitHub](https://github.com/adepew/ferrenenterprises/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
+and an assortment of pre-styled elements. So, pretty much what you were expecting
+-- except, of course, for how it's put together, specifically:
 
-### Markdown
+- It's built with components from my Responsive Tools project.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- It uses flexbox, which eliminates all kinds of terrible hacks and clunky layout
+  stopgaps (like CSS grid systems).
 
-```markdown
-Syntax highlighted code block
+- It uses Sass* a lot more intelligently, thanks in part to several new mixins
+  and functions I've been working on (as well as a few by @HugoGiraudel).
 
-# Header 1
-## Header 2
-### Header 3
+  (* = still entirely optional if you prefer vanilla CSS :)
 
-- Bulleted
-- List
+- A ton of other stuff.
 
-1. Numbered
-2. List
+In short, Spectral's the culmination of several new things I'm working on/trying out,
+so please, let me know what you think :)
 
-**Bold** and _Italic_ and `Code` text
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-[Link](url) and ![Image](src)
-```
+(* = not included)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+AJ
+aj@lkn.io | @ajlkn
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/adepew/ferrenenterprises/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Credits:
 
-### Support or Contact
+	Demo Images:
+		Unsplash (unsplash.com)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	Icons:
+		Font Awesome (fontawesome.io)
+
+	Other:
+		jQuery (jquery.com)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
+		Responsive Tools (github.com/ajlkn/responsive-tools)
