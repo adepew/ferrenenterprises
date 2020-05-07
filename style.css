@@ -412,7 +412,8 @@ a.textlogo:hover { color: #FFFFFF; text-decoration: none; }
 
 .rslides_container	{
 			background-color: transparent;
-			max-width: 750px;  /* INCLUDES BORDER BELOW */
+			width: 700px;
+			max-width: 1004px;  /* INCLUDES BORDER BELOW */
 			min-width: 250px;
 			text-align: center;
 			margin: 0 auto;
