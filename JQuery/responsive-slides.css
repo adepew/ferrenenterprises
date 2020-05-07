@@ -41,8 +41,7 @@ THE CSS FILES IN YOUR "colors" FOLDER
 .rslides img {
   display: block;
   height: auto;
-  max-width: 600px;
-  max-height: 400px;
+  width: 100%;
   border: 0;
  }
 
@@ -51,9 +50,10 @@ THE CSS FILES IN YOUR "colors" FOLDER
 .rslides_container {
 	text-align: center;
 	position: relative;
-	max-width: 600px;
-	max-height: 400px;
+	width: 100%;
 	}
+
+
 
 
 /* START NEXT / BACK BUTTON STYLES (ARROW IMAGE IN jQuery FOLDER) */
