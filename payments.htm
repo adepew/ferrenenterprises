@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!-- EDIT THE NEXT THREE LINES -->
+
+<title>Website Template</title>
+<meta name="Description" content="Place your website description in this area. This is read by some search engines.">
+<meta name="KeyWords" content="add, your, keywords and phrases in this area, separated, by, commas, this, is read by only a, few search, engines">
+
+<!-- EDIT THE ABOVE THREE LINES -->
+
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Cache-Control" content="max-age=1200">
+
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="media-queries.css" type="text/css">
+
+<script type="text/javascript" src="JQuery/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="javascripts.js"></script>
+
+</head>
+
+<body class="outer-background">
+
+
+<!-- START PAGE WRAPPER -->
+<div class="pagewrapper">
+<div class="pagebox">
+
+
+<!-- HEADER -->
+<script type="text/javascript" src="header.js"></script>
+
+
+<!-- MENU -->
+<script type="text/javascript" src="menu.js"></script>
+
+
+<!-- START CONTENT OUTER -->
+<div id="contentbox" class="inner-background pageheight">
+
+
+<!-- START MAIN CONTENT LEFT -->
+<div id="left-content">
+
+
+<!-- START CONTENT TEXT -->
+<div class="content-pad td-left just">
+
+
+
+
+
+
+<!-- PARAGRAPH 1 -->
+
+<div class="td-left">
+
+<h1 class="title">Custom Payment Form</h1>
+
+</div>
+
+<div class="page-splits">&nbsp;<br></div>
+
+Please Enter Amount Below: The form below is for users to send you payments of an unspecified amount. Perhaps for a custom project or a donation for a non-profit website. To setup this form, edit the Paypal business e-mail in the "paypal.htm" with your Paypal e-mail. Please enter an amount into the form below to make a payment.<br>
+
+<br><br>
+
+<!-- END PARAGRAPH 1 -->
+
+
+
+
+
+
+
+
+<!-- START PAYPAL FORM -->
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="formmargin">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="paypal@your-web-domain.com">
+<input type="hidden" name="item_name" value="Paypal Payment">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+
+<table class="payformbox"><tr><td class="td-top">
+<table class="paypaltable"><tr><td>
+
+Enter amount:<br>
+
+<input type="text" name="amount" value="" class="shadeform payform"><br>
+
+</td></tr><tr><td>
+
+<input type="hidden" name="on0" value="Payment Details">
+
+Payment notes:<br>
+
+<textarea name="os0" rows="4" cols="17" class="shadeform payform"></textarea>
+
+</td></tr><tr><td>
+
+<input type="submit" name="PaypalPayment" value="Send Payment" class="submitbutton payform"><br>
+
+</td></tr></table>
+
+</td><td class="td-top paypalbadge-space">
+
+<img src="picts/paypal-form.png" class="paypalbadge" alt="Payments through Paypal"><br>
+
+</td></tr></table>
+</form>
+<br><br>
+<!-- END PAYPAL FORM -->
+
+
+
+
+
+
+
+<div class="page-splits">&nbsp;<br></div>
+
+
+<a href="contact.htm">Please contact us to make a payment other than with Paypal</a><br>
+
+
+<div class="page-splits">&nbsp;<br></div>
+
+
+
+
+
+
+<br>
+
+</div>
+<!-- END CONTENT TEXT -->
+
+
+</div>
+<!-- END MAIN CONTENT LEFT -->
+
+
+<!-- START SIDEBAR CONTENT RIGHT -->
+<div id="sidebar-content" class="SB-width SB-background">
+
+
+<!-- START SIDEBAR CONTENT TEXT -->
+<div class="sidebar-pad td-center sidebar-text">
+
+
+<script type="text/javascript" src="sidebar.js"></script>
+
+
+<br>
+
+</div>
+<!-- END SIDEBAR CONTENT TEXT -->
+
+</div>
+<!-- END SIDEBAR CONTENT RIGHT -->
+
+
+<!-- CLEAR CONTENT FLOATS -->
+<div class="divclear">&nbsp;<br></div>
+
+
+</div>
+<!-- END CONTENT OUTER -->
+
+
+</div>
+<!-- END PAGE HEIGHT & PAGEBOX -->
+
+
+
+
+
+
+<!-- SOCIAL LINKS ON MOBILE -->
+
+<div class="mobile-social">
+<script type="text/javascript" src="social-links.js"></script>
+</div>
+
+
+
+
+
+
+<!-- START FOOTER -->
+
+<!-- FOOTER SPLIT -->
+<div class="footer-splits">
+&nbsp;<br>
+</div>
+
+<div class="footer-border footerhide printhide">
+
+<iframe id="FooterFRM" src="footer.htm" width="100%" height="250" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" class="footer-frame footer-height"></iframe>
+
+</div>
+
+<script type="text/javascript" src="footer-copyright.js"></script>
+
+<!-- END FOOTER -->
+
+
+
+
+
+
+</div>
+<!-- END PAGE WRAPPER -->
+
+
+</body>
+</html>
