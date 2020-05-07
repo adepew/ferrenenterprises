@@ -1105,7 +1105,7 @@ div#comparison {
 }
 
   div#comparison figure { 
-	background-image: url(picts/before.jpg); 
+	background-image: url(/picts/before.jpg); 
 	background-size: cover;
 	position: relative;
 	font-size: 0;
@@ -1118,7 +1118,7 @@ div#comparison {
 	width: 100%;
   }
   div#comparison figure div { 
-	background-image: url(picts/after.jpg);
+	background-image: url(/picts/after.jpg);
 	background-size: cover;
 	position: absolute;
 	width: 50%; 
